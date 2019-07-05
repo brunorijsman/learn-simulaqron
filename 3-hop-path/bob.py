@@ -22,5 +22,3 @@ with CQCConnection("Bob") as cqc:
 
     # Report to Alice that end-to-end entanglement is complete
     cqc.sendClassical("Alice", b"done")
-
-
